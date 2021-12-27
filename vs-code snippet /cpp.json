@@ -18,16 +18,29 @@
 		],
 		"description": "Log output to console"
 	},
+	"User-Defined KeyWords": {
+		"prefix": "#define token-string",
+		"body": [
+			"#define ll long long int",
+			"#define pb push_back",
+			"#define MOD 1000000007",
+			"#define vt vector"
+		],
+		"description": "#Define all important defines"
+	},
+
 	"Competetive BoilerCode": {
-		"prefix": "main",
+		"prefix": "std-main",
 		"body": [
 			"#include <bits/stdc++.h>",
 			"using namespace std;",
 			"",
+			"// user-defined",
 			"#define ll long long int",
 			"#define pb push_back",
 			"#define MOD 1000000007",
-			"",	
+			"#define vt vector",
+			"",
 			"void solution(){",
 			"   ",
 			"   $1",
@@ -46,7 +59,7 @@
 			"   std::ifstream infile(\"input.txt\");",
 			"   if(!infile.good()){",
 			"       ofstream MyFile(\"input.txt\");",
-			"       MyFile << \"3\"; // writing example case",
+			"       MyFile << \"1\"; // writing example case",
 			"    }",
 		 
 			"   freopen(\"input.txt\", \"r\", stdin);",
@@ -72,7 +85,7 @@
 	"Print BiolerCode": {
 		"prefix": "cout",
 		"body": [
-			"cout<< \"$1\" <<endl;"
+			"cout<<  $1 ;",
 		],
 		"description": "Log output to console"
 	}

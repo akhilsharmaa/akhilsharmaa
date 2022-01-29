@@ -6,14 +6,48 @@
 		"#include <bits/stdc++.h>",
 		"using namespace std;",
 		"",
-		"int main(){",
-		"    $1",
+		"#define ll long long int",
+		"#define pb push_back",
+		"#define MOD 1000000007",
+		"#define vt vector",
+		"#define py cout << \"YES\" << endl;",
+		"#define pn cout << \"NO\" << endl;",
 		"",
-		"    return 0;",
+		"int main(){",
+		"",
+		"int testCase;",
+		"cin >> testCase;",
+		"   ",
+		"   while(testCase--){",
+		"      ",
+		"       $1",
+		"      ",
+		"   }",
+		"",
+		"   return 0;",
 		"}"
 	],
-	"description": "Log output to console"
+	"description": "Main with Testcase"
 	},
+
+	
+	
+	"Simple main function": {
+		"prefix": "main-simple",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"",
+			"int main(){",
+			"",
+			"   $1",
+			"",
+			"   return 0;",
+			"}"
+		]
+	},
+
 	
 	"User-Defined KeyWords": {
 		"prefix": "#define token-string",
@@ -36,7 +70,7 @@
 			"for (int i = 0; i < n; i++)",
 			"cin >> arr[i]; // input-values",
 			"",
-			"",
+			""
 		],
 		"description": "#Define all important defines"
 	},
@@ -48,7 +82,7 @@
 			"// Print Ouput of Arr-Vector ",
 			"for (auto && i : arr){",
 			"   cout << i << \" \" ;",
-			"}",
+			"}"
 		],
 		"description": "#Define all important defines"
 	},
@@ -68,7 +102,13 @@
 			"",
 			"void solution(){",
 			"    ",
-			"    $1",
+			"    int testCase;",
+			"    cin >> testCase;",
+			"    ",
+			"    while(testCase--){",
+			"       $1",
+			"       ",
+			"    }",
 			"    ",
 			"}",
 			"",
@@ -95,22 +135,17 @@
 			"",
 			"int main(){",
 			"    setUp_ForLocalMachine();",
-			"    ",
-			"    int testCase;",
-			"    cin >> testCase;",
-			"    ",
-			"    while(testCase--){",
 			"    solution();",
-			"    }",
+			"    ",
 			"    return 0;",
-			"}",
+			"}"
 		],
 		"description": "Ready code for Competetive Programming"
 	},
 	"Print BiolerCode": {
 		"prefix": "cout",
 		"body": [
-			"cout<<  $1 ;",
+			"cout<<  $1 ;"
 		],
 		"description": "Log output to console"
 	}

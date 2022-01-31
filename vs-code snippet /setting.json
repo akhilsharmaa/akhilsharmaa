@@ -1,0 +1,60 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "workbench.startupEditor": "none",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cSpell.userWords": [
+        "akhil",
+        "Akhilesh",
+        "akhilsharmaa",
+        "Codeforces",
+        "esversion",
+        "INSTRAGRAM",
+        "Leetcode",
+        "LINKEDIN",
+        "Longowal",
+        "resave",
+        "Sant",
+        "Sharma",
+        "theakhilesh"
+    ],
+    
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.quickSuggestionsDelay": 10,
+
+    "editor.mouseWheelZoom": true,
+    "vscode-edge-devtools.mirrorEdits": true,
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "cSpell.ignoreWords": [
+        "HACKERRANK",
+        "VANDH",
+        "iterater"
+    ],
+    "git.confirmSync": false,
+    "debug.terminal.clearBeforeReusing": true,
+    "code-runner.clearPreviousOutput": true,
+    "editor.linkedEditing": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "editor.fontFamily": "'MonoLisa', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "cSpell.language": "en",
+    "cph.general.defaultLanguage": "cpp",
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+    "cph.language.cpp.SubmissionCompiler": "GNU G++14 6.4.0",
+    "window.zoomLevel": 1,
+    "files.autoSave": "afterDelay"
+}

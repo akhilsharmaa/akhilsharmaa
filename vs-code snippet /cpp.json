@@ -1,7 +1,7 @@
 {
 	"Main BoilerCode": 
 	{
-	"prefix": "main",
+	"prefix": "main-competetive",
 	"body": [
 		"#include <bits/stdc++.h>",
 		"using namespace std;",
@@ -10,22 +10,46 @@
 		"#define pb push_back",
 		"#define MOD 1000000007",
 		"#define vt vector",
-		"#define py cout << \"YES\" << endl;",
-		"#define pn cout << \"NO\" << endl;",
+		"#define pYes cout << \"YES\" << endl;",
+		"#define pNo cout << \"NO\" << endl;",
+		"",
+		"",
+		
+		"",
+		"void solve(){",
+		"    ",
+		"    ll a, b, c, p, q, r, k, m, x, y, z;",
+		"    ",
+		"    $1",
+		"    ",
+		"}",
+		"",
 		"",
 		"int main(){",
 		"",
-		"int testCase;",
-		"cin >> testCase;",
+		"   int tCase;",
+		"   cin >> tCase;",
 		"   ",
-		"   while(testCase--){",
-		"      ",
-		"       $1",
-		"      ",
+		"   while(tCase--){",
+		"       solve();",
 		"   }",
 		"",
 		"   return 0;",
-		"}"
+		"}",
+		"",
+		"  /* ",
+		" __________________________________________",
+		" |                                        |",
+		" |  If this code helps you                |",
+		" |  Please consider to GIVE A STAR :)     |",
+		" |  & FOLLOW ME ON GITHUB                 |",
+		" |  ID - @akhilsharmaa                    |",
+		" |                                        |",
+		" |  C++ CODE BY AKHILESH                  |",
+		" |________________________________________|",
+		" */",
+		"",
+		""
 	],
 	"description": "Main with Testcase"
 	},
@@ -45,6 +69,28 @@
 			"",
 			"   return 0;",
 			"}"
+		]
+	},
+
+	
+	
+	"Watermark @akhilsharmaa": {
+		"prefix": "watermark-akhilsharmaa",
+		"body": [
+			"",
+			"  /* ",
+			" __________________________________________",
+			" |                                        |",
+			" |  If this code helps you ;)             |",
+			" |                                        |",
+			" |  Please give a STAR                    |",
+			" |  & FOLLOW_ME on Github                 |",
+			" |                                        |",
+			" |  ID - @akhilsharmaa                    |",
+			" |                                        |",
+			" |  C++ CODE BY AKHILESH                  |",
+			" |________________________________________|",
+			" */",
 		]
 	},
 
@@ -87,7 +133,7 @@
 		"description": "#Define all important defines"
 	},
 
-	"Competetive BoilerCode": 
+	"Competetive BoilerCode with IO": 
 	{
 		"prefix": "std-main",
 		"body": [
@@ -102,13 +148,7 @@
 			"",
 			"void solution(){",
 			"    ",
-			"    int testCase;",
-			"    cin >> testCase;",
-			"    ",
-			"    while(testCase--){",
 			"       $1",
-			"       ",
-			"    }",
 			"    ",
 			"}",
 			"",
@@ -135,7 +175,13 @@
 			"",
 			"int main(){",
 			"    setUp_ForLocalMachine();",
-			"    solution();",
+			"    int testCase;",
+			"    cin >> testCase;",
+			"    ",
+			"    while(testCase--){",
+			"          solution();",
+			"       ",
+			"    }",
 			"    ",
 			"    return 0;",
 			"}"

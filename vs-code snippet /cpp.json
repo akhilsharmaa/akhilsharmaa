@@ -18,14 +18,16 @@
 		"",
 		"void solve(){",
 		"    ",
-		"    ll a,b,c,d,p,q,r,k,n,m,x,y,z;",
-		"    ",
 		"    $1",
 		"    ",
 		"}",
 		"",
 		"",
 		"int main(){",
+		"",
+		" // For Faster Output",
+		"   ios_base:: sync_with_stdio(false);",
+		"   cin.tie(NULL);",
 		"",
 		"   int tCase;",
 		"   cin >> tCase;",
@@ -40,12 +42,8 @@
 		"  /* ",
 		" __________________________________________",
 		" |                                        |",
-		" |  If this code helps you                |",
-		" |  Please consider to GIVE A STAR :)     |",
-		" |  & FOLLOW ME ON GITHUB                 |",
-		" |  ID - @akhilsharmaa                    |",
-		" |                                        |",
-		" |  C++ CODE BY AKHILESH                  |",
+		" |  C++ Code by Akhilesh Kr. Sharma       |",
+		" |  GITHUB ID - @akhilsharmaa             |",
 		" |________________________________________|",
 		" */",
 		"",
@@ -69,6 +67,25 @@
 			"",
 			"   return 0;",
 			"}"
+		]
+	},
+
+	
+	
+	
+	"Binary Exponentiation - O(log n)": {
+		"prefix": "binpow",
+		"body": [
+			"long long binpow(long long a, long long b) {",
+			"   long long res = 1;",
+			"   while (b > 0) {",
+			"      if (b & 1)",
+			"         res = res * a;",
+			"      a = a * a;",
+			"      b >>= 1;",
+			"   }",
+			"   return res;",
+			"}",
 		]
 	},
 

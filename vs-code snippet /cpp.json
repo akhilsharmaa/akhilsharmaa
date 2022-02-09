@@ -6,19 +6,17 @@
 		"#include <bits/stdc++.h>",
 		"using namespace std;",
 		"",
-		"#define ll long long int",
-		"#define pb push_back",
-		"#define MOD 1000000007",
-		"#define vt vector",
-		"#define pYes cout << \"YES\" << endl;",
-		"#define pNo cout << \"NO\" << endl;",
+		",#define ll      long long int ",
+		",#define pb      push_back ",
+		",#define MOD     1000000007 ",
+		",#define vt      vector ",
+		",#define pYes    cout << \"YES\" << endl; ",
+		",#define pNo     cout << \"NO\" << endl; ",
 		"",
-		"",
-		
 		"",
 		"void solve(){",
 		"    ",
-		"    $1",
+		"   $1",
 		"    ",
 		"}",
 		"",
@@ -39,13 +37,10 @@
 		"   return 0;",
 		"}",
 		"",
-		"  /* ",
-		" __________________________________________",
-		" |                                        |",
-		" |  C++ Code by Akhilesh Kr. Sharma       |",
-		" |  GITHUB ID - @akhilsharmaa             |",
-		" |________________________________________|",
-		" */",
+		"/* ",
+        "   AUTHOR- 🇦​​​​​🇰​​​​​🇭​​​​​🇮​​​​​🇱​​​​​🇪​​​​​🇸​​​​​🇭​​​​​",
+        "   ID - @akhilsharmaa",
+        "*/",
 		"",
 		""
 	],
@@ -57,7 +52,7 @@
 	"Simple main function": {
 		"prefix": "main-simple",
 		"body": [
-			"#include <bits/stdc++.h>",
+			"#include <iostream>",
 			"using namespace std;",
 			"",
 			"",
@@ -122,6 +117,23 @@
 		],
 		"description": "#Define all important defines"
 	},
+
+	"Array-Input of N size": 
+	{
+		"prefix": "for input-array",
+		"body": [
+			"int cnt =  0;",
+			"map <int, int> :: iterator it;",
+			"for (auto &&it : mp){",
+			"   cout << \"[ \" << it.second << \", \" << it.second << \" ]\";",
+			"   cnt++;",
+			"}"
+		],
+		"description": "#Define all important defines"
+	},
+
+
+
 
 	"Array-Input of N size": 
 	{

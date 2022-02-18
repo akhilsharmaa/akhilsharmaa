@@ -6,12 +6,12 @@
 		"#include <bits/stdc++.h>",
 		"using namespace std;",
 		"",
-		",#define ll      long long int ",
-		",#define pb      push_back ",
-		",#define MOD     1000000007 ",
-		",#define vt      vector ",
-		",#define pYes    cout << \"YES\" << endl; ",
-		",#define pNo     cout << \"NO\" << endl; ",
+		"#define ll long long int",
+		"#define pb push_back",
+		"#define MOD 1000000007",
+		"#define vt vector",
+		"#define pYes cout << \"YES\" << endl; ",
+		"#define pNo cout << \"NO\" << endl; ",
 		"",
 		"",
 		"void solve(){",
@@ -38,8 +38,8 @@
 		"}",
 		"",
 		"/* ",
-        "   AUTHOR- 🇦​​​​​🇰​​​​​🇭​​​​​🇮​​​​​🇱​​​​​🇪​​​​​🇸​​​​​🇭​​​​​",
-        "   ID - @akhilsharmaa",
+        "   Author - @akhilsharmaa",
+        "   C++ code by Akhilesh Sharma",
         "*/",
 		"",
 		""
@@ -118,9 +118,10 @@
 		"description": "#Define all important defines"
 	},
 
-	"Array-Input of N size": 
+
+	"Map-Output of N size": 
 	{
-		"prefix": "for input-array",
+		"prefix": "for output-map",
 		"body": [
 			"int cnt =  0;",
 			"map <int, int> :: iterator it;",
@@ -131,9 +132,6 @@
 		],
 		"description": "#Define all important defines"
 	},
-
-
-
 
 	"Array-Input of N size": 
 	{
@@ -149,6 +147,7 @@
 		],
 		"description": "#Define all important defines"
 	},
+
 
 	"Array-OUPUT of N size": 
 	{

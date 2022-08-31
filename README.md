@@ -1,7 +1,5 @@
 <!-- ![akhilsharmaa Contribution graph](https://github.com/akhilsharmaa/akhilsharmaa/blob/output/github-contribution-grid-snake.svg)      -->
 
-
-![Badge](https://cp-logo.vercel.app/codechef/meakhilsharma)
 ![Badge](https://cp-logo.vercel.app/codeforces/akhilsharmaa)
 ![Badge](https://cp-logo.vercel.app/leetcode/akhilsharmaa)
 

@@ -1,7 +1,7 @@
 <!-- ![akhilsharmaa Contribution graph](https://github.com/akhilsharmaa/akhilsharmaa/blob/output/github-contribution-grid-snake.svg)      -->
 
 <a href="https://codeforces.com/profile/akhilsharmaa"> 
-  <img src="https://raw.githubusercontent.com/akhilsharmaa/cf/main/output/light_card.svg">
+  <img src="https://raw.githubusercontent.com/akhilsharmaa/cf/main/output/max_rating.svg">
 </a> 
 
 <h3 align="left">Connect with me:</h3>

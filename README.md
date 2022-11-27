@@ -1,7 +1,6 @@
 <!-- ![akhilsharmaa Contribution graph](https://github.com/akhilsharmaa/akhilsharmaa/blob/output/github-contribution-grid-snake.svg)      -->
 
-![Badge](https://cp-logo.vercel.app/codeforces/akhilsharmaa)
-![Badge](https://cp-logo.vercel.app/leetcode/akhilsharmaa)
+![](https://raw.githubusercontent.com/akhilsharmaa/cf/main/output/light_card.svg)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
